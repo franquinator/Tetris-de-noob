@@ -1,0 +1,34 @@
+<html lang="es">
+    <head>
+        <title>tetrix</title>
+        <script src="Tetris.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="iniciar()" >
+            <div id="Juego" >
+                <canvas id="canvas"></canvas>
+                <div id="proximaFicha">
+                    <div>
+                        <h2>Proxima Ficha</h2>
+                        <canvas id="proximaFichaCanvas"></canvas>
+                    </div>
+                </div>
+                <div id="puntaje">
+                    <div>
+                        <h2>Puntaje</h2>
+                        <p>Puntos: <span id="puntos">0</span></p>
+                        <p>Tiempo: <span id="tiempo">0</span></p>
+                    </div>
+                </div>
+            </div>
+            <div id="menu">
+
+            </div>
+            <audio id="Musica" loop>
+                <source src="tetrisgameboy1-gameboy.mp3" type="audio/mp3">
+            </audio>
+            <img id="BloqueRojo" style="height: 32px;" src="Bloque rojo.png" alt="Bloque rojo">
+
+        
+    </body>
+</html>
